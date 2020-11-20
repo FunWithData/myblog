@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://friendly-raman-43b455.netlify.app/"
 languageCode = "en-us"
 title = "FunWithData"
 theme="Eclectic"
