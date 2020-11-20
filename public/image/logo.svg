@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 118 114.1"
+   style="enable-background:new 0 0 118 114.1;"
+   xml:space="preserve"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata42"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs40" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   id="namedview38"
+   showgrid="false"
+   inkscape:zoom="7.1866784"
+   inkscape:cx="71.661037"
+   inkscape:cy="20.304079"
+   inkscape:window-x="1672"
+   inkscape:window-y="105"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"
+   inkscape:document-rotation="0" />
+<style
+   type="text/css"
+   id="style27">
+	.st0{fill:#71B180;}
+	.st1{font-family:'HelveticaNeue';}
+	.st2{font-size:28px;}
+	.st3{font-family:'HelveticaNeue-Thin';}
+	.st4{font-size:24px;}
+</style>
+<path
+   class="st0"
+   d="m 100.66049,18.165488 c -2.499998,1.1 -39.260612,0.874024 -40.460612,0.274024 26.458282,-1.45901 25.135,-8.8523169 17.135,-11.5523169 -5.139147,-1.282561 -4.373292,-1.6782927 -9.590731,-1.0914634 -8.8,3.1 -4.811708,7.2651223 -13.011708,11.5651213 C 61.901056,4.0430056 44.348645,12.685553 42.944878,17.16939 40.612119,24.620563 8.1648346,9.6575372 41.065853,12.847683 45.726341,5.6256098 54.222073,4.4434146 62.722073,1.1434146 c 6.5,-2.4 10.851951,-2.02170728 17.251951,0.5782927 8.7,3.6 12.086463,11.3437807 20.686466,16.4437807 z"
+   id="path29"
+   style="fill:#ff0000"
+   sodipodi:nodetypes="cccccscccc" />
+
+<text
+   transform="translate(22.9507,61.1348)"
+   class="st1 st2"
+   id="text33">Fun</text>
+<text
+   class="st3 st4"
+   id="text35"
+   x="2.5053055"
+   y="94.03907">WithData</text>
+</svg>
