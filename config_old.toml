@@ -1,7 +1,7 @@
 baseURL = "https://friendly-raman-43b455.netlify.app/"
 languageCode = "en-us"
 title = "FunWithData"
-  	#theme="hugo-universal-theme"
+#theme="hugo-universal-theme"
 theme="Eclectic"
 
 #baseURL = "<Your URL Here>"                    # Hosting location.
@@ -54,12 +54,12 @@ enableEmoji = "true"
   content = "FunWithData Site was created to help data enthusiasts understand some elementary procedures for working with data sets used in SAS (Statistical Analysis System)  and Python's corresponding methods. We hope that you will find explanations and examples helpful. Currently, we cover some of the basic techniques for combining tables horizontally and vertically."
 
   [[params.footer]]
-  title = "Recent Blog Posts SAS"
+  title = "Recent SAS Blog Posts"
   recents = "blogSAS"
   recentCount = 7.0
 
   [[params.footer]]
-  title = "Recent Blog Posts Python"
+  title = "Recent Pyhon Blog Posts"
   recents = "blogPython"
   recentCount = 7.0
 

@@ -1,0 +1,5 @@
+baseURL: http://example.org/                  # Hosting location.
+languageCode: en-us                           # Locale
+title: FunWithData                      # Name of the website
+theme: Eclectic                               # Name of the theme
+enableEmoji: true                             # Enable Emoticons

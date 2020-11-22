@@ -4,11 +4,20 @@ UNDER CONSTRUCTION
 
 ## Direct Emojis
 
-Smile please :smile:
+Smile please :smile:  
 
-I :heart: Hugo
+I :heart:  Hugo:
 
 Wink :wink:
+
+
+## Unicode Emojis
+
+Smile please &#x1F604;
+
+I &#x2764; Hugo
+
+Wink &#x1F609;
 
 ## __Fractions__
 
