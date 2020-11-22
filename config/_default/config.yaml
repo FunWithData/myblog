@@ -1,5 +1,6 @@
-baseURL: http://example.org/                  # Hosting location.
+baseURL: https://friendly-raman-43b455.netlify.app/                # Hosting location.
 languageCode: en-us                           # Locale
 title: FunWithData                      # Name of the website
 theme: Eclectic                               # Name of the theme
 enableEmoji: true                             # Enable Emoticons
+enableGitInfo: true		#Enable automatic setting of the git author dates for the content
