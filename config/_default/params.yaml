@@ -3,9 +3,12 @@ copyright: "Copyright &copy; 2020 FunWithData. All Rights Reserved."
 footer:
   - title: About
     content:  FunWithData Site was created to help data enthusiasts understand some elementary procedures for working with data sets used in SAS (Statistical Analysis System)  and Python's corresponding methods. We hope that you will find explanations and examples helpful. Currently, we cover some of the basic techniques for combining tables horizontally and vertically.
-  - title: Recent Blog Posts
-    recents: blog
+  - title: Recent SAS Blog Posts
+    recents: blogSAS
     recentCount: 7
+  - title: Recent Python Blog Posts
+    recents: blogPython
+    recentCount: 2
   - title: Contact Us
     contact: true
 style: green
