@@ -1,3 +1,11 @@
+---
+# content/privacy.md
+menu:
+    footer:
+        name: Privacy Policy
+        weight: 3
+----
+
 # __Privacy Policy__
 
 Last updated November 19, 2020

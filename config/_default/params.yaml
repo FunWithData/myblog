@@ -1,3 +1,5 @@
+#  config/default/_params.yaml
+
 color: "#71B180"
 copyright: "Copyright &copy; 2020 FunWithData. All Rights Reserved."
 footer:
@@ -11,6 +13,8 @@ footer:
     recentCount: 2
   - title: Contact Us
     contact: true
+  - title: Important Links
+    menu: true
 style: green
 logo: /image/logo.png
 logo_small: /image/logo.png
