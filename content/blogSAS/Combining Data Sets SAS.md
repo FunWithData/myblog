@@ -24,8 +24,6 @@ run;
 ```
 ### Here is the output from PROC PRINT
 
-###  __table one__
-
 
 ![dataset_one](/image/dataset_one.png "Is it working?")
 
@@ -45,7 +43,7 @@ proc print data=two;
 run;
 ```
 
-### output for dataset two:
+### Output for dataset two:
 
 ![dataset_two](/image/dataset_two.png)
 
@@ -65,10 +63,11 @@ proc print data=three;
 run;
 ```
 
-### output for dataset three:
-![dataset_three](/inage/dataset_three.png)
+### Output for dataset three:
 
-### combining dataset one and dataset two
+![dataset_three](/image/dataset_three.png)
+
+### Combining dataset one and dataset two
 
 ```SAS
 data one_two;
@@ -79,11 +78,11 @@ proc print data=one_two;
 run;
 ```
 
-### output table for dataset one_two:
+### Cutput table for dataset one_two:
 
 ![dataset_one_two](/image/dataset_one_two.png)
 
-### combining dataset one and dataset three:
+### Combining dataset one and dataset three:
 
 ```SAS
 data one_three;
@@ -94,7 +93,7 @@ proc print data=one_three;
 run;
 ```
 
-### output table one_three:
+### Output table one_three:
 
 ![dataset_one_three](/image/dataset_one_three.png)
 
