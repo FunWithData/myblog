@@ -81,7 +81,7 @@ run;
 
 ### output table for dataset one_two:
 
-![dataset_one_two](/image/one_two.png)
+![dataset_one_two](/image/dataset_one_two.png)
 
 ### combining dataset one and dataset three:
 
@@ -96,7 +96,7 @@ run;
 
 ### output table one_three:
 
-![dataset_one_three](/image/one_three.png)
+![dataset_one_three](/image/dataset_one_three.png)
 
 
 
