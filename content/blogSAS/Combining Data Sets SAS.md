@@ -4,11 +4,11 @@ date: "2020-11-22T00:00:00Z"
 ---
 Many times, when working on a project (small or big), we have to combine various data sets. SAS is one of the leading languages used for data manipulation and analysis. Combining data sets quickly and accurately with SAS is very useful.
 The two main types of joins are vertical joins and horizontal joins.
-<!--more-->
+
 
 __I.	Vertical Joins__
 
-Let’s create three datasets in SAS and then experiment with vertical joins.
+Let’s create three datasets in SAS and then experiment with vertical joins. <!--more-->
 ```SAS
 data one;
 input VarA $ 1-2 VarB $ 4-6 VarC $ 8-10;
@@ -78,7 +78,7 @@ proc print data=one_two;
 run;
 ```
 
-### Cutput table for dataset one_two:
+### Output table for dataset one_two:
 
 ![dataset_one_two](/image/dataset_one_two.png)
 
