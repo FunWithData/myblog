@@ -9,7 +9,7 @@ The two main types of joins are vertical joins and horizontal joins.
 
 __I.	Vertical Joins__
 
-First, we have to import the modules that we need for the task.
+First, we have to import the libraries that we need for the task.
 
 ```python
 import numpy as np

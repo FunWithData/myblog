@@ -102,4 +102,4 @@ run;
 ![a pdf file](/image/01 review-introduction.pdf)
 
 
-
+Try to add content from [GitHub](https://github.com/FunWithData/notebooks/blob/master/Python%20Basics%20-%20Lab1.ipynb)
