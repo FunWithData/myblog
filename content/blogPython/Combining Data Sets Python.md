@@ -1,5 +1,5 @@
 ---
-title: "Combining Data Sets with Python"
+title: "Combining Data Sets Vertically with Python"
 date: "2020-11-24T00:00:00Z"
 ---
 This post describes how to combine datasets vertically with Python. It closely mirrors the post *Combining Data Sets with SAS*. 
@@ -52,6 +52,8 @@ print(three)
 
 ![dataset_three](/image/p_dataset_three.png)
 
+### __Concatenating__
+
 ### Combining dataset one and dataset two
 
 ```python
@@ -62,6 +64,21 @@ print(one_two)
 ### Output table for dataset one_two:
 
 ![dataset_one_two](/image/p_dataset_one_two.png)
+
+As you can see from the output table, the new dataset index is out of order, and there are repeating observations. To correct for the index, use ignore_index=True, and to remove duplicates, you can use pd.DataFrame.drop_duplicates().
+
+```python
+one_two=pd.concat([one, two], ignore_index=True)
+print(one_two, '\n')
+
+one_two_nodups=pd.DataFrame.drop_duplicates(one_two)
+print(one_two_nodups)
+```
+Here are the two tables from the print procedure. The first one shows the sequential index, and in the second dataset, the duplicate observations are removed.
+
+![python_sorted_nodups](/image/p_ds_one_two_sorted_nodups.png)
+
+
 
 ### Combining dataset one and dataset three:
 

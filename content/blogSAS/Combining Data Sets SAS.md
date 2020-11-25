@@ -1,5 +1,5 @@
 ---
-title: "Combining Data Sets with SAS"
+title: "Combining Data Sets Vertically with SAS"
 date: "2020-11-22T00:00:00Z"
 ---
 Many times, when working on a project (small or big), we have to combine various data sets. SAS is one of the leading languages used for data manipulation and analysis. Combining data sets quickly and accurately with SAS is very useful.
@@ -7,6 +7,7 @@ The two main types of joins are vertical joins and horizontal joins.
 
 
 __I.	Vertical Joins__
+
 
 Let’s create three datasets in SAS and then experiment with vertical joins. <!--more-->
 ```SAS
@@ -67,6 +68,10 @@ run;
 
 ![dataset_three](/image/dataset_three.png)
 
+##	*__Concatenating__
+
+In the process of concatenation, all of the observations in the first dataset listed in the SET statement are read first. Then, all of the observations in the second dataset listed in the SET statement are read (and then all of the observations in the third dataset and so on...) until all of the observations in all of the datasets are read. The new dataset contains all of the variables and observations from all of the input data sets.  
+
 ### Combining dataset one and dataset two
 
 ```SAS
@@ -81,6 +86,20 @@ run;
 ### Output table for dataset one_two:
 
 ![dataset_one_two](/image/dataset_one_two.png)
+
+As you have noticed, there are repeating observations in the dataset (obs 2 is the same as obs 4, and obs 3 is the same as obs 5). If you don't need the repeating observations, you can use PROC SORT with NODUPRECS option to remove the repeats. 
+
+```sas
+proc sort data=one_two noduprecs;
+by _all_;
+run;
+
+proc print data=one_two;
+run;
+```
+And here is the table after the sort procedure:
+
+![dataset_one_three](/image/ds_one_two_sorted_noduprecs.png)
 
 ### Combining dataset one and dataset three:
 
