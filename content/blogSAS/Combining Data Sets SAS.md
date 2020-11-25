@@ -99,7 +99,7 @@ run;
 ```
 And here is the table after the sort procedure:
 
-![dataset_one_three](/image/ds_one_two_sorted_noduprecs.png)
+![ds_one_two_sorted_noduprecs](/image/ds_one_two_sorted_nodups.png)
 
 ### Combining dataset one and dataset three:
 
