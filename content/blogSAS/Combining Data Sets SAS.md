@@ -122,3 +122,5 @@ run;
 
 
 Try to add content from [GitHub](https://github.com/FunWithData/notebooks/blob/master/Python%20Basics%20-%20Lab1.ipynb)
+
+Try to embed a Gist [Gist-Strings](https://gist.github.com/FunWithData/bf94cc9ef836b7d9061ecb566a279eb9#file-py0101en-1-2-strings-ipynb)
