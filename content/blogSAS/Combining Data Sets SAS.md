@@ -68,7 +68,7 @@ run;
 
 ![dataset_three](/image/dataset_three.png)
 
-##	*__Concatenating__
+##	* __Concatenating__
 
 In the process of concatenation, all of the observations in the first dataset listed in the SET statement are read first. Then, all of the observations in the second dataset listed in the SET statement are read (and then all of the observations in the third dataset and so on...) until all of the observations in all of the datasets are read. The new dataset contains all of the variables and observations from all of the input data sets.  
 
@@ -115,6 +115,46 @@ run;
 ### Output table one_three:
 
 ![dataset_one_three](/image/dataset_one_three.png)
+
+
+## Appending
+ - PROC APPEND adds the observations in the second (DATA= ) dataset to the end of the first (BASE= ) dataset.
+
+### Appending dataset one and dataset two with PROC APPEND procedure
+
+```sas
+proc append base=one
+	data=two;
+run;
+
+proc print data=one;
+run;
+```
+
+### output from the first append procedure
+![append_one_two](/image/append_one_two.png)
+
+### Appending the new dataset three to the new dataset one (after the first append)
+
+```sas
+proc append base=one
+	data=three force;
+run;
+
+proc print data=one;
+run;
+```
+
+### output from the second append procedure
+![append_resulting_one_to_three](/image/append_resulting_one_to_three.png)
+
+## NOTES:
+ - With the append procdedure only two datasets can be concatenated in the same step
+ - The observations from the first dataset (BASE= ) are not read
+ - The PROC APPEND procedure will not execute without the FORCE option if the variables in second dataset have different attributes or different names than the variables in the first dataset (BASE= ).
+
+
+
 
 ## Let's see if I can attach a pdf file
 
