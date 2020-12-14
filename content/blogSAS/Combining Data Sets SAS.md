@@ -68,7 +68,7 @@ run;
 
 ![dataset_three](/image/dataset_three.png)
 
-##	* __Concatenating__
+###  a)   Concatenating with SET statement
 
 In the process of concatenation, all of the observations in the first dataset listed in the SET statement are read first. Then, all of the observations in the second dataset listed in the SET statement are read (and then all of the observations in the third dataset and so on...) until all of the observations in all of the datasets are read. The new dataset contains all of the variables and observations from all of the input data sets.  
 
@@ -117,7 +117,7 @@ run;
 ![dataset_one_three](/image/dataset_one_three.png)
 
 
-## Appending
+##  b) Appending with PROC APPEND
  - PROC APPEND adds the observations in the second (DATA= ) dataset to the end of the first (BASE= ) dataset.
 
 ### Appending dataset one and dataset two with PROC APPEND procedure
@@ -149,18 +149,10 @@ run;
 ![append_resulting_one_to_three](/image/append_resulting_one_to_three.png)
 
 ## NOTES:
- - With the append procdedure only two datasets can be concatenated in the same step
- - The observations from the first dataset (BASE= ) are not read
- - The PROC APPEND procedure will not execute without the FORCE option if the variables in second dataset have different attributes or different names than the variables in the first dataset (BASE= ).
+ - With the append procdedure only two datasets can be concatenated in the same step.
+ - PROC APPEND does not create a new dataset. It attaches the second dataset to the first.
+ - The observations from the first dataset (BASE= ) are not read (processed). 
+ - The PROC APPEND procedure will not execute without the FORCE option if the variables in second dataset have different attributes and/or different names than the variables in the first dataset (BASE= ).
 
 
-
-
-## Let's see if I can attach a pdf file
-
-![a pdf file](/image/01 review-introduction.pdf)
-
-
-Try to add content from [GitHub](https://github.com/FunWithData/notebooks/blob/master/Python%20Basics%20-%20Lab1.ipynb)
-
-Try to embed a Gist [Gist-Strings](https://gist.github.com/FunWithData/bf94cc9ef836b7d9061ecb566a279eb9#file-py0101en-1-2-strings-ipynb)
+Try to embed a Gist [Gist-Strings](<script src="https://gist.github.com/FunWithData/0499035cab94a5096557b610c0de6d34.js"></script>)
