@@ -1,4 +1,17 @@
-A circle is a simple closed shape. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves in a plane so that its distance from a given point is constant. The distance between any of the points and the centre is called the radius. This article is about circles in Euclidean geometry, and, in particular, the Euclidean plane, except where otherwise noted.
+# General Principles of Performance Evaluation
+## For Prediction - 
+##### (prediction methods are used for generating numerical predictions)
+### a) __ MAE__ (mean absolute error/deviation)= \frac{1}{n} sum_{i=1}^{n} | {e}_i |
+### b) MAPE
+### c) RMSE
+
+## For Classification - 
+##### (classification methods (“classifiers”) are used for generating propensities and, using a cutoff value on the propensities, we can generate predicted class memberships)
+
+### Metrics Based on the Confusion Matrix
+### a) Overall Accuracy
+### b) Specificity and Sensitivity
+### c) ROC  curve
 <!--more-->
 A circle is a simple closed curve that divides the plane into two regions: an interior and an exterior. In everyday use, the term "circle" may be used interchangeably to refer to either the boundary of the figure, or to the whole figure including its interior; in strict technical usage, the circle is only the boundary and the whole figure is called a disc.
 

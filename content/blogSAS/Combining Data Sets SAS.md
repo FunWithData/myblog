@@ -5,10 +5,6 @@ date: "2020-11-22T00:00:00Z"
 Many times, when working on a project (small or big), we have to combine various data sets. SAS is one of the leading languages used for data manipulation and analysis. Combining data sets quickly and accurately with SAS is very useful.
 The two main types of joins are vertical joins and horizontal joins.
 
-
-__I.	Vertical Joins__
-
-
 Let’s create three datasets in SAS and then experiment with vertical joins. <!--more-->
 ```SAS
 data one;
@@ -67,6 +63,9 @@ run;
 ### Output for dataset three:
 
 ![dataset_three](/image/dataset_three.png)
+
+__I.	Vertical Joins__
+
 
 ###  a)   Concatenating with SET statement
 
@@ -155,4 +154,4 @@ run;
  - The PROC APPEND procedure will not execute without the FORCE option if the variables in second dataset have different attributes and/or different names than the variables in the first dataset (BASE= ).
 
 
-Try to embed a Gist [Gist-Strings](<script src="https://gist.github.com/FunWithData/0499035cab94a5096557b610c0de6d34.js"></script>)
+Try to embed a Gist (<script src="https://gist.github.com/FunWithData/0499035cab94a5096557b610c0de6d34.js"></script>)

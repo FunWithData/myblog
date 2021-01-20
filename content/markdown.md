@@ -67,7 +67,7 @@ _Italics_
 
 __Bold__
 
-___Bold+Italics___
+*__Bold+Italics__*
 
 this_is_not_emphasis
 

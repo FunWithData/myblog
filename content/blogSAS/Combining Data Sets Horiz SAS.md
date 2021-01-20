@@ -25,7 +25,7 @@ a4  b4  c4
 ;
 run;
 ```
-![dataset_one](/image/dataset_one.png)     |    ![hor_two](/image/hor_two.png)
+![dataset_one](/image/dataset_one.png)           ![hor_two](/image/hor_two.png)
 
 ### I. Interleaving
 
@@ -44,6 +44,7 @@ run;
 ```
 
 This is the resulting table:
+
 ![hor_one_two](/image/hor_one_two.png)
 
 ### II. Match-Merging
@@ -61,7 +62,7 @@ by VarA;
 run;
 
 data merged;
-set one two;
+merge one two;
 by VarA;
 run;
 
@@ -70,6 +71,7 @@ run;
 ```
 
 Data set merged:
+
 ![merged](/image/merged_one_two.png)
 
 Content from [wikipedia](https://en.wikipedia.org/wiki/Triangle)
