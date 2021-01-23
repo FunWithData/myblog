@@ -1,6 +1,6 @@
 ---
-title: Our Manufacturing Process Part II
-date: "2020-11-22T00:00:00Z"
+title: Combining Data Sets Horizontally with Python
+date: "2021-01-21T00:00:00Z"
 ---
 
 The three principal machining processes are classified as turning, drilling and milling. Other operations falling into miscellaneous categories include shaping, planing, boring, broaching and sawing.[5]
