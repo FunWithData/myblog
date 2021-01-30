@@ -10,3 +10,4 @@ The three principal machining processes are classified as turning, drilling and 
 * Drilling operations are operations in which holes are produced or refined by bringing a rotating cutter with cutting edges at the lower extremity into contact with the workpiece. Drilling operations are done primarily in drill presses but sometimes on lathes or mills.
 
 Content from [wikipedia](https://en.wikipedia.org/wiki/Machining)
+
