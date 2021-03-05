@@ -37,10 +37,31 @@
 
 ### Metrics Based on the Confusion Matrix
 
-### a) Overall Accuracy
-### b) Specificity and Sensitivity
-### c) ROC  curve
+Confusion matrix is a table that describes the performance of a classification model for which the true values (i.e., the ‘ground truth”) are known. In the case of a binary classifier, the confusion matrix looks like the following:
 
-<!--more-->
+|	| **Predicted: YES** |	**Predicted: NO** |
+|---|---|---|
+|**Actual: YES**|True Positive  |False Negative |
+|  **Actual: NO**   |	False Positive|	True Negative   |
 
-Content from [wikipedia](https://en.wikipedia.org/wiki/Circle).
+
+There are two possible predicted classes: YES and NO. If we were predicting the presence of a disease in a population sample, for example, the YES would mean they have the disease, and NO would mean they don’t have the disease. Then there are four possibilities
+* 	**True Positive (TP)**: These are cases in which we predicted YES (i.e., they have the disease), and they do have the disease.
+*	**False Negative (FN)**: We predicted NO, but they actually do have the disease. (Also known as “Type II error”.)
+*	**False Positive(FP)**: We predicted YES, but they don’t actually have the disease (Also known as “Type I error”.)
+*	**True Negative(TN)**: We predicted NO, and they don’t have the disease.
+
+A main accuracy measure is the estimated **misclassification rate**, also called the **error rate**. It is given by 
+err= ![ \frac{FP+FN}{TP+FP+TN+FN}](https://latex.codecogs.com/svg.latex?\dpi{400}&space;\frac{FP+FN}{TP+FP+TN+FN})
+
+accuracy = 1-err= ![ \frac{TP+TN}{TP+FP+TN+FN}](https://latex.codecogs.com/svg.latex?\dpi{400}&space;\frac{TP+TN}{TP+FP+TN+FN})
+
+sensitivity/recall  = ![ \frac{TP}{TP+FN}](https://latex.codecogs.com/svg.latex?\dpi{400}&space;\frac{TP}{TP+FN})
+The sensitivyty is also termed recall of a classifier. It is its ability to detect important class members correctly. 
+
+specificity = ![ \frac{TN}{FP+TN}](https://latex.codecogs.com/svg.latex?\dpi{400}&space;\frac{TP}{FP+TN})
+
+
+### c) ROC  curve (Receiver Operating Characteristic curve) -  The ROC curve is created by plotting the true positive rate (TP) against the false positive rate (FP) at various threshold settings. Better performance is reflected by curves that are closer to the top-left corner. The comparison curve is the diagonal, which reflects the average performance of a guessing classifier that has no information about the predictors or outcome varaible. 
+
+
